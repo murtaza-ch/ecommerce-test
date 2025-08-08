@@ -1,0 +1,55 @@
+.navbar-elevated {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+.navbar .nav-link {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  color: #111;
+}
+
+.navbar-search {
+  position: relative;
+}
+
+.navbar-search .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #9aa0a6;
+}
+
+.navbar-search .search-input {
+  padding-left: 36px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.btn-soft {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.cart-btn {
+  border-radius: 12px;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.cart-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  padding: 0 8px;
+}
