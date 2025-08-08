@@ -222,8 +222,7 @@ const Products = () => {
                     <button
                       className="btn btn-light border flex-grow-1"
                       onClick={() => {
-                        addProduct(product);
-                        navigate("/cart");
+                        navigate(`/product/${product.id}`);
                       }}
                     >
                       Buy Now
